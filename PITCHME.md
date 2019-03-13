@@ -43,7 +43,6 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 - list.remove(N)
 - list.remove(obj)
 - list.indexOf(obj)
-
 @ulend
 ---
 
