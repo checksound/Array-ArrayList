@@ -19,7 +19,7 @@ E un array dinamico di una mia classe ad esempio `Persona`?
 Vediamo che la logica di base non cambia molto, per queste sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
 ---
 
-### Utilizzo di ArrayList
+#### Utilizzo della classe `ArrayList`
 
 `java.util.ArrayList` è una delle classi standard del JDK, fa parte del Java Collection Framework.
 
@@ -34,7 +34,7 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 #### Metodi
 
 @snap[west span-55]
-@ul[spaced text-white]
+@ul[spaced text-red]
 - list.size()
 - list.add(obj)
 - list.get(N) , lancia ArrayIndexOutOfBoundException se N >= list.size()
