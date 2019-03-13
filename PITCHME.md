@@ -1,4 +1,8 @@
-# DINAMIC ARRAY
+# Array & Arraly List
+---
+
+## DINAMIC ARRAY
+Implementiamo un array dinamico da un array base. In questo caso un arrray di `int`.
 
 ```java
 import java.util.Arrays;
