@@ -33,20 +33,17 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 ---
 ## Metodi
 
-list.size()
-list.add(obj)
-list.get(N) , lancia ArrayIndexOutOfBoundException se N >= list.size()
-list.set(N, obj)
-list.clear()
-list.remove(N)
-list.remove(obj)
-list.indexOf(obj)
 
 @ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
+- list.size()
+- list.add(obj)
+- list.get(N) , lancia ArrayIndexOutOfBoundException se N >= list.size()
+- list.set(N, obj)
+- list.clear()
+- list.remove(N)
+- list.remove(obj)
+- list.indexOf(obj)
+
 @ulend
 ---
 
