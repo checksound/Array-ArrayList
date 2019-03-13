@@ -31,7 +31,9 @@ ArrayList<String> namelist = new ArrayList<String>();
 ArrayList<Player> playerList = new ArrayList<Player>();
 ```
 ---
+@snap[north-west]
 #### Metodi
+@snapend
 
 @snap[west span-55]
 @ul[spaced text-red]
