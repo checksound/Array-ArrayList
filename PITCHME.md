@@ -4,7 +4,7 @@
 ## DINAMIC ARRAY
 Implementiamo un array dinamico da un array base. In questo caso un arrray di `int`.
 
----?gist=MassimoCappellano/14094c0aabca84f4f2eb9e24a81fb496&lang=Java&title=Array List di int
+---?gist=MassimoCappellano/14094c0aabca84f4f2eb9e24a81fb496&lang=Java&title=Dinamic Array di `int`
 
 @[1-9](attributi private `items` e `itemCt`)
 @[10-35](get item, set item e size())
