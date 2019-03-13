@@ -31,9 +31,9 @@ ArrayList<String> namelist = new ArrayList<String>();
 ArrayList<Player> playerList = new ArrayList<Player>();
 ```
 ---
-## Metodi
+#### Metodi
 
-
+@snap[west span-55]
 @ul[spaced text-white]
 - list.size()
 - list.add(obj)
@@ -44,6 +44,7 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 - list.remove(obj)
 - list.indexOf(obj)
 @ulend
+@snapend
 ---
 
 ## Programmare con ArrayList
