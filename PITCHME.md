@@ -74,7 +74,7 @@ E' importante che quindi il metodo `equals` sia reimplementato secondo la logica
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
 ---
-Abbiamo visto come dalla struttura statica dell'array si possono costruire array dinamici. La classe del JDK `java.util.ArrayList` ha il comportamento degli array dinamici ed è implementata internamente come dice il nome con un array che contiene gli elementi.
+Abbiamo visto come, da tipo array, si possono costruire array dinamici. La classe del JDK `java.util.ArrayList` ha il comportamento degli array dinamici ed è implementata internamente come dice il nome con un array che contiene gli elementi.
 
 La classe `ArrayList` implementa l'interfaccia `java.util.List`.
 
