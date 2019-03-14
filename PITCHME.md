@@ -122,7 +122,7 @@ La cancellazione invece vorrebbe dire spostare di 1 indietro tutti gli elementi 
 ![](assets/img/cancellazione_elemento_array.PNG)
 
 ---
-@snap
+@snap[]
 Si può riassumere dal confronto tra le due strutture dati:
 @snapend
 - l'accesso ad un elemento di un array è indipendente dalla dimensione dell'array, mentre per la lista dinamica, dovendo scorrere uno a uno gli elementi, dipende dalla posizione dell'elemento;
