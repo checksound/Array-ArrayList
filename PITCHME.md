@@ -123,8 +123,8 @@ La cancellazione invece vorrebbe dire spostare di 1 indietro tutti gli elementi 
 
 ---
 @snap[west]
-Si può riassumere dal confronto tra le due strutture dati:
-- l'accesso ad un elemento di un array è indipendente dalla dimensione dell'array, mentre per la lista dinamica, dovendo scorrere uno a uno gli elementi, dipende dalla posizione dell'elemento;
+Si può riassumere dal confronto tra le due strutture dati:  
+- l'accesso ad un elemento di un array è indipendente dalla dimensione dell'array, mentre per la lista dinamica, dovendo scorrere uno a uno gli elementi, dipende dalla posizione dell'elemento;  
 - inserimento e cancellazione di elementi nella lista dinamica è molto meno dispendiosa (basta spostare le reference) rispetto alla stessa operazione nell'array, dovevanno spostati in avanti o indietro tutti gli elementi successivi all'elemento da inserire o cancellare.
 @snapend
 
