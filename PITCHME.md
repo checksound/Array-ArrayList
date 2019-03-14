@@ -111,6 +111,15 @@ Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento 
 
 ![](assets/img/linked_list2.png)
 
+---
+Mentre l'aggiunta di un elemento all'interno dell'array, non sarebbe così semplice. Verrebbe dire spostare di 1 tutti gli elementi seguenti quello da inserire.
+
+Così come la cancellazione.
+
+![](assets/img/cancellazione_elemento_array.PNG)
+
+
+
 
 
 
