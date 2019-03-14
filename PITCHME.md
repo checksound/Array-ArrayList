@@ -90,6 +90,8 @@ Vediamo cos'è una lista dinamica.
 
 #### Lista dinamica
 
+Struttura dati definita in modo ricorsivo.
+
 ```java
 class Node {
   String item;
