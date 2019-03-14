@@ -33,7 +33,7 @@ Vediamo che la logica di base non cambia molto, per queste sono stati definiti i
 ---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Dinamic Array generico
 
 Solo esempio introduttivo... vederemo in seguito
----
+---?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio con DinamicArrayGeneric
 
 #### Utilizzo della classe `ArrayList`
 
