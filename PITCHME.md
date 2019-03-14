@@ -142,7 +142,7 @@ Per questo motivo  `ArrayList` è da preferire come implementazione quando abbia
 
 Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite operazioni di modifica della lista, quindi operazioni di `add` e `remove`.
 
-[@fa[external-link]](https://checksound.gitbook.io/corsojava/array-and-arraylist)
+[Vai a @fa[external-link]](https://checksound.gitbook.io/corsojava/array-and-arraylist)
 
 
 
