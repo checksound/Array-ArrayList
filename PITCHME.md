@@ -30,10 +30,13 @@ Le tre classi che hanno il comportamento di un array dinamico sono molto simili 
 
 Vediamo che la logica di base non cambia molto, per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
 
----?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Dinamic Array generico
+Per ora vediamo solo come utilizzare tipi paramentrici già definiti.
 
-Solo esempio introduttivo... vederemo in seguito
----?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio con DinamicArrayGeneric
+---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Esempio Dinamic Array come tipo parametrico
+
+Solo esempio introduttivo... di come viene definito un tipo parametrico. Abbiamo reso la classe un tipo parametrico. Notate `<T>` a fianco al nome della classe.
+
+---?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio di utilizzo DinamicArrayGeneric
 
 ---
 
@@ -98,7 +101,15 @@ class Node {
   Node next;  
 }
 ```
+
 ![](assets/img/linked_list1.png)
+
+Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento ha il campo `next = null`.
+---
+
+### Aggiunta di un elemento all'interno della lista
+
+
 
 
 
