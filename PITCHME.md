@@ -21,7 +21,9 @@ Se avessi avuto bisogno di un array dinamico di `String`?
 
 ---
 E un array dinamico di una mia classe ad esempio `Persona`?
----?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed
+---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&title=Dinamic array of Person
+
+Stessa cosa
 
 ---
 Vediamo che la logica di base non cambia molto, per queste sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
