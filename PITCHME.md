@@ -21,12 +21,18 @@ Se avessi avuto bisogno di un array dinamico di `String`?
 
 ---
 E un array dinamico di una mia classe ad esempio `Persona`?
----?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&title=Dinamic array of people
+---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java&title=Dinamic array of people
 
 Le tre classi che implementano un array dinamico sono molto simili come si può notare.
 
 ---
+### Tipi Parametrici
+
 Vediamo che la logica di base non cambia molto, per queste sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
+
+---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Dinamic Array generico
+
+Solo esempio introduttivo... vederemo in seguito
 ---
 
 #### Utilizzo della classe `ArrayList`
