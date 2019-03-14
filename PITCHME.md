@@ -20,7 +20,9 @@ Se avessi avuto bisogno di un array dinamico di `String`?
 @[36-58](add item e remove item)
 
 ---
-E un array dinamico di una mia classe ad esempio `Persona`? 
+E un array dinamico di una mia classe ad esempio `Persona`?
+---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed
+
 ---
 Vediamo che la logica di base non cambia molto, per queste sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
 ---
