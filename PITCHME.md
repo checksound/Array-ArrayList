@@ -82,7 +82,7 @@ Anche la classe `java.util.LinkedList` implementa l'interfaccia `java.util.List`
 
 ---
 
-LinkedList
+`LinkedList` è implementato invece, come dice il nome, con il di dato lista dinamica.
 
 
 
