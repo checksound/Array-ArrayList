@@ -14,6 +14,11 @@ Implementiamo un array dinamico da un array base. In questo caso un arrray di `i
 Se avessi avuto bisogno di un array dinamico di `String`?
 
 ---?gist=MassimoCappellano/0d4dad68bf46818770793bc2576e2afb&lang=Java&title=Dinamic array of strings
+
+@[1-9](attributi private `items` e `itemCt`)
+@[10-35](get item, set item e size())
+@[36-58](add item e remove item)
+
 ---
 E un array dinamico di una mia classe ad esempio `Persona`? 
 ---
