@@ -35,6 +35,8 @@ Vediamo che la logica di base non cambia molto, per queste sono stati definiti i
 Solo esempio introduttivo... vederemo in seguito
 ---?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio con DinamicArrayGeneric
 
+---
+
 #### Utilizzo della classe `ArrayList`
 
 `java.util.ArrayList` è una delle classi standard del JDK, fa parte del Java Collection Framework.
