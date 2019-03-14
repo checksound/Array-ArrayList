@@ -28,7 +28,10 @@ Le tre classi, che hanno il comportamento di un array dinamico, sono molto simil
 @snapend
 
 ---
+@snap[north-west]
 ### Tipi Parametrici
+@snapend
+
 @snap[west]
 Vediamo che la logica di base non cambia molto, per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
 
