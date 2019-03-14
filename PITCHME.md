@@ -28,7 +28,7 @@ Le tre classi che hanno il comportamento di un array dinamico sono molto simili 
 ---
 ### Tipi Parametrici
 
-Vediamo che la logica di base non cambia molto, per queste sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
+Vediamo che la logica di base non cambia molto, per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
 
 ---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Dinamic Array generico
 
