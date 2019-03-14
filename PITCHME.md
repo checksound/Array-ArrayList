@@ -114,7 +114,7 @@ Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento 
 ---
 Mentre l'aggiunta di un elemento all'interno dell'array, non sarebbe così semplice. Verrebbe dire spostare in avanti di 1 tutti gli elementi seguenti quello da inserire.
 
-La cancellazione invece vorregge dire spostare di 1 indietro tutti gli elementi dopo quello da cancellare.
+La cancellazione invece vorrebbe dire spostare di 1 indietro tutti gli elementi dopo quello da cancellare.
 
 ![](assets/img/cancellazione_elemento_array.PNG)
 
