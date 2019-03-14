@@ -70,7 +70,7 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 @snapend
 ---
 
-Gli ultimi due metodi `list.remove(obj)` e `list.indexOf(obj)` utilizzano `obj.equals(Object o)` per trovare l'oggetto da rimuovere o la posizione dell'oggetto nella lista.
+Gli ultimi due metodi, `list.remove(obj)` e `list.indexOf(obj)`, utilizzano `obj.equals(Object o)` per trovare l'oggetto da rimuovere o la posizione dell'oggetto nella lista.
 
 E' importante che quindi il metodo `equals` sia reimplementato secondo la logica di confronto per noi opportuna.
 
@@ -105,7 +105,10 @@ class Node {
 ![](assets/img/linked_list1.png)
 
 Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento ha il campo `next = null`.
+
 ---
+
+
 
 ### Aggiunta di un elemento all'interno della lista
 
@@ -117,6 +120,13 @@ Mentre l'aggiunta di un elemento all'interno dell'array, non sarebbe così sempl
 La cancellazione invece vorrebbe dire spostare di 1 indietro tutti gli elementi dopo quello da cancellare.
 
 ![](assets/img/cancellazione_elemento_array.PNG)
+
+---
+
+Si può riassumere dal confronto tra le due strutture dati: 
+- l'accesso ad un elemento di un array è indipendente dalla dimensione dell'array, mentre per la lista dinamica, dovendo scorrere uno a uno gli elementi, dipende dalla posizione dell'elemento;
+- inserimento e cancellazione di elementi nella lista dinamica è molto meno dispendiosa (basta spostare le reference) rispetto alla stessa operazione nell'array, dovevanno spostati in avanti o indietro tutti gli elementi successivi all'emeneto da inserire o cancellare.
+
 
 
 
