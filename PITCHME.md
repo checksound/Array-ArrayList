@@ -85,7 +85,7 @@ Anche la classe `java.util.LinkedList` implementa l'interfaccia `java.util.List`
 `LinkedList` è implementato invece, come dice il nome, con il tipo di dato astratto (concetto) di lista dinamica.
 
 ---
-Le differenze tra `ArrayList` e `LinkedList` dipendono dalla struttura dati interna utilizzata: un array nel caso di `ArrayList`mentre una lista dinamica nel caso della `LinkedList`. I medodi che espongono sono uguali perchè ambedue implementano l'intarfaccia `java.util.List`.
+Le differenze tra `ArrayList` e `LinkedList` dipendono dalla struttura dati interna utilizzata: un array nel caso di `ArrayList` mentre è utillizzata una lista dinamica, nel caso della `LinkedList`. I medodi che espongono sono uguali perchè ambedue implementano l'intarfaccia `java.util.List`.
 
 Vediamo cos'è una lista dinamica.
 
