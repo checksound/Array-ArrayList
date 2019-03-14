@@ -109,6 +109,8 @@ Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento 
 
 ### Aggiunta di un elemento all'interno della lista
 
+![](assets/img/linked_list2.png)
+
 
 
 
