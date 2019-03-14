@@ -82,7 +82,9 @@ Anche la classe `java.util.LinkedList` implementa l'interfaccia `java.util.List`
 
 ---
 
-`LinkedList` è implementato invece, come dice il nome, con il di dato lista dinamica.
+`LinkedList` è implementato invece, come dice il nome, con il tipo di dato astratto (concetto) di lista dinamica.
+
+
 
 
 
