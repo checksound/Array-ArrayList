@@ -88,7 +88,7 @@ Vediamo cos'è una lista dinamica.
 
 ---
 
-#### Lista dinamica
+#### Lista dinamica  
 
 Struttura dati definita in modo ricorsivo.
 
