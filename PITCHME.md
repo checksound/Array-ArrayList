@@ -1,4 +1,4 @@
-# Array & Arraly List
+# Array & Array List
 ---
 
 ## DINAMIC ARRAY
