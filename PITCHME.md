@@ -82,11 +82,21 @@ Anche la classe `java.util.LinkedList` implementa l'interfaccia `java.util.List`
 ---
 @img[shadow](assets/img/ArrayListVsLinkedList.png)
 
-Le differenze tra `ArrayList` e `LinkedList` dipendono dalla struttura dati interna utilizzata: un array nel caso di `ArrayList` mentre, nel caso della `LinkedList`, è utillizzata una lista dinamica. I metodi che espongono sono uguali perchè ambedue implementano l'intarfaccia `java.util.List`.
+Le differenze tra `ArrayList` e `LinkedList` dipendono dalla struttura dati interna utilizzata: un array nel caso di `ArrayList`, mentre, nel caso della `LinkedList`, è utillizzata una lista dinamica. I metodi che espongono sono uguali perchè ambedue implementano l'intarfaccia `java.util.List`.
 
 Vediamo cos'è una lista dinamica.
 
 ---
+
+#### Lista dinamica
+
+```java
+class Node {
+  String item;
+  Node next;  
+}
+```
+![](assets/img/linked_list1.png)
 
 
 
