@@ -23,7 +23,7 @@ Se avessi avuto bisogno di un array dinamico di `String`?
 E un array dinamico di una mia classe ad esempio `Persona`?
 ---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java&title=Dinamic array of people
 
-Le tre classi che hanno il comportamento di un array dinamico sono molto simili come si può notare.
+Le tre classi, che hanno il comportamento di un array dinamico, sono molto simili, come si può notare.
 
 ---
 ### Tipi Parametrici
