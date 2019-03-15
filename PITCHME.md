@@ -146,6 +146,8 @@ Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite opera
 [Vai a @fa[external-link]](https://checksound.gitbook.io/corsojava/array-and-arraylist)
 @snapend
 
+---?include=template/md/code-presenting/PITCHME.md
+
 
 
 
