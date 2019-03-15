@@ -1,10 +1,10 @@
 # Array & Array List
 ---
 
-## DINAMIC ARRAY
+## DYNAMIC ARRAY
 Implementiamo un array dinamico da un array base. In questo caso un arrray di `int`.
 
----?gist=MassimoCappellano/14094c0aabca84f4f2eb9e24a81fb496&lang=Java&title=Dinamic Array of ints
+---?gist=MassimoCappellano/14094c0aabca84f4f2eb9e24a81fb496&lang=Java&title=Dynamic Array of ints
 
 @[1-9](attributi private `items` e `itemCt`)
 @[10-35](get item, set item e size())
@@ -13,7 +13,7 @@ Implementiamo un array dinamico da un array base. In questo caso un arrray di `i
 ---
 Se avessi avuto bisogno di un array dinamico di `String`?
 
----?gist=MassimoCappellano/0d4dad68bf46818770793bc2576e2afb&lang=Java&title=Dinamic array of strings
+---?gist=MassimoCappellano/0d4dad68bf46818770793bc2576e2afb&lang=Java&title=Dynamic array of strings
 
 @[1-9](attributi private `items` e `itemCt`)
 @[10-35](get item, set item e size())
@@ -21,9 +21,10 @@ Se avessi avuto bisogno di un array dinamico di `String`?
 
 ---
 E un array dinamico di una mia classe ad esempio `Persona`?
----?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java
+---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java&title=Dynamic array of Person 
 
-@snap[south-west]
+---
+@snap[]
 Le tre classi (`DynamicArrayOfInt`, `DynamicArrayOfString`, `DynamicArrayOfPerson`), che sono array dinamici, sono molto simili nella implementazione, come si può notare.
 @snapend
 
