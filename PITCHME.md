@@ -24,7 +24,7 @@ E un array dinamico di una mia classe ad esempio `Persona`?
 ---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java
 
 @snap[south-west]
-Le tre classi, che hanno il comportamento di un array dinamico, sono molto simili, come si può notare.
+Le tre classi (`DynamicArrayOfInt`, `DynamicArrayOfString`, `DynamicArrayOfPerson`), che sono array dinamici, sono molto simili nella implementazione, come si può notare.
 @snapend
 
 ---
@@ -33,9 +33,11 @@ Le tre classi, che hanno il comportamento di un array dinamico, sono molto simil
 @snapend
 
 @snap[west]
-Vediamo che la logica di base non cambia molto, per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento.
+Vediamo che la logica di base non cambia molto, cambia solo il tipo di contenuto: un array di `int` o un array di `String` o un array di una classe da noi definita, es `Person`. Per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento sui tipi parametrici.
 
 Per ora vediamo solo come utilizzare tipi paramentrici già definiti.
+
+Nella prossima slide vediamo la classe resa tipo parametrico, solo come esempio. Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
 @snapend
 
 ---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Esempio Dinamic Array come tipo parametrico
