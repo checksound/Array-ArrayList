@@ -26,7 +26,7 @@ E un array dinamico di una mia classe ad esempio `Persona`?
 ---
 @snap[west]
 Le tre classi (`DynamicArrayOfInt`, `DynamicArrayOfString`, `DynamicArrayOfPerson`), che sono array dinamici, sono molto simili nella implementazione, come si può notare. 
-
+<br>
 Vediamo che la logica di base non cambia molto, cambia solo il tipo di contenuto: un array di `int` o un array di `String` o un array di una classe da noi definita, es `Person`.
 @snapend
 
