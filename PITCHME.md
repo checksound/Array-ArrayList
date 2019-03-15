@@ -36,7 +36,7 @@ Vediamo che la logica di base non cambia molto, cambia solo il tipo di contenuto
 @snapend
 
 @snap[west]
- Per questo sono stati definiti i tipi parametrici, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento sui tipi parametrici.
+ Per questo sono stati definiti i **tipi parametrici**, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento sui tipi parametrici.
 
 Per ora vediamo solo come utilizzare tipi paramentrici già definiti.
 
