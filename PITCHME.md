@@ -24,7 +24,7 @@ E un array dinamico di una mia classe ad esempio `Persona`?
 ---?gist=MassimoCappellano/f635ef66e0a4ec1b156a392cccf923ed&lang=Java&title=Dynamic array of Person 
 
 ---
-@snap[]
+@snap[west]
 Le tre classi (`DynamicArrayOfInt`, `DynamicArrayOfString`, `DynamicArrayOfPerson`), che sono array dinamici, sono molto simili nella implementazione, come si può notare.
 @snapend
 
