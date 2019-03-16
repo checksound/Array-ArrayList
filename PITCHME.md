@@ -217,6 +217,9 @@ public class EsempioArrayList2 {
 
 }
 ```
+
+Rimuoviamo un elemento
+
 ---
 
 #### Output:
@@ -236,6 +239,53 @@ Player [name=Dries Mertens, squadra=Napoli]
 Player [name=Mario Mandžukić, squadra=Juventus]
 
 ```
+Vediamo che l'elemento però c'è ancora. Come mai?
+
+---
+
+```java
+package team;
+
+public class Player {
+	
+	private String name;
+	private String squadra;
+	
+	public Player(String name, String squadra) {
+		this.name = name;
+		this.squadra = squadra;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Player other = (Player) obj;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		if (squadra == null) {
+			if (other.squadra != null)
+				return false;
+		} else if (!squadra.equals(other.squadra))
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Player [name=" + name + ", squadra=" + squadra + "]";
+	}
+		
+}
+```
+
 
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
