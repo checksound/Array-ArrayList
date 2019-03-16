@@ -66,7 +66,7 @@ Notate `<T>` a fianco al nome della classe. `T` come tipo generico.
 @snap[west]
 `java.util.ArrayList` è una delle classi standard del JDK, fa parte del Java Collection Framework, ed è un tipo di array dinamico.
 <br><br>
-E' un tipo parametrico `java.util.ArrayList<E>` che implementa l'interfaccia `java.util.List<E>`.
+E' un tipo parametrico `java.util.ArrayList<E>` che implementa l'interfaccia [`java.util.List<E>`](https://docs.oracle.com/javase/7/docs/api/java/util/List.html).
 @snapend
 
 ---
