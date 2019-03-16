@@ -119,7 +119,9 @@ Player [name=Dries Mertens, squadra=Napoli]
 Player [name=Mario Mandžukić, squadra=Juventus]
 
 ```
-
+@snap[south-west]
+Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento.
+@snapend
 ---
 
 @snap[north-west]
