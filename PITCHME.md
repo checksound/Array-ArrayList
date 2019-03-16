@@ -105,6 +105,24 @@ Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, cl
 ---
 
 @snap[north-west]
+#### Output
+@snapend
+
+```text
+Massimo
+Giovanni
+Carla
+Player [name=Cristiano Ronaldo, squadra=Juventus]
+Player [name=Mauro Icardi, squadra=Inter]
+Player [name=Ciro Immobile, squadra=Lazio]
+Player [name=Dries Mertens, squadra=Napoli]
+Player [name=Mario Mandžukić, squadra=Juventus]
+
+```
+
+---
+
+@snap[north-west]
 #### Metodi
 @snapend
 
