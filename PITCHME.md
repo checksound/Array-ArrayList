@@ -142,10 +142,11 @@ Player [name=Mario Mandžukić, squadra=Juventus]
 @snapend
 
 ---
-
+@snap[west]
 Gli ultimi due metodi, `list.remove(obj)` e `list.indexOf(obj)`, utilizzano `obj.equals(Object o)` per trovare l'oggetto da rimuovere o la posizione dell'oggetto nella lista.
-
+<br><br>
 E' importante che quindi il metodo `equals` sia reimplementato secondo la logica di confronto per noi opportuna.
+@snapend
 
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
