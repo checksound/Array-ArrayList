@@ -72,8 +72,6 @@ E' un tipo parametrico [`java.util.ArrayList<E>`](https://docs.oracle.com/javase
 ---
 @snap[north-west]
 #### Esempio `ArrayList` come tipo parametrico
-
-Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, classe di esempio.
 @snapend
 
 ```java
@@ -99,6 +97,11 @@ for(Player player: playerList) {
   System.out.println(player);
 }
 ```
+
+@snap[south-west]
+Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, classe di esempio.
+@snapend
+
 ---
 
 @snap[north-west]
