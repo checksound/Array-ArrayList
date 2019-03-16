@@ -216,6 +216,10 @@ Per questo motivo  `ArrayList` è da preferire come implementazione quando abbia
 <br><br>
 Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite operazioni di modifica della lista, quindi operazioni di `add` e `remove`.
 @snapend
+---
+@span[north-west]
+#### Riepilogo
+@snapend
 
 @snap[south span-100 text-06]
 [Vai a @fa[external-link]](https://checksound.gitbook.io/corsojava/array-and-arraylist)
