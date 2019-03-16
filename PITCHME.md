@@ -181,6 +181,42 @@ public class Player {
 		
 }
 ```
+---
+
+```java
+import java.util.ArrayList;
+
+public class EsempioArrayList2 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Player> playerList = new ArrayList<Player>();
+		
+		playerList.add(new Player("Cristiano Ronaldo", "Juventus"));
+		playerList.add(new Player("Mauro Icardi", "Inter"));
+		playerList.add(new Player("Ciro Immobile", "Lazio"));
+		playerList.add(new Player("Dries Mertens", "Napoli"));
+		playerList.add(new Player("Mario Mandžukić", "Juventus"));
+		
+		for(Player player: playerList) {
+			System.out.println(player);
+		}
+		
+		int index = playerList.indexOf(new Player("Mauro Icardi", "Inter"));
+		
+		System.out.println("index: " + index);
+		
+		boolean isRemoved = playerList.remove(new Player("Mauro Icardi", "Inter"));
+		
+		System.out.println("Dopo la remove di 'Icardi'");
+		
+		for(Player player: playerList) {
+			System.out.println(player);
+		}
+	}
+
+}
+```
 
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
