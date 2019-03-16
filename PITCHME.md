@@ -219,11 +219,15 @@ Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite opera
 ---
 @snap[north-west]
 #### Riepilogo
+@snapend
+
+@snap[west]
 <ol>
-<li>struttura dati array dinamico</li>
-<li>`ArrayList` come array dinamico</li>
-<li>Metodi dell'interfaccia `List`</li>
-<li>`LinkedList` come differente implementazione di `List`</li> 
+<li>Struttura dati array dinamico;</li>
+<li>`ArrayList` come array dinamico;</li>
+<li>Metodi dell'interfaccia `List`;</li>
+<li>`LinkedList` come differente implementazione di `List`;</li>
+<li>Differenze tra `ArrayList` e `LinkedList`;</li>
 </ol>
 @snapend
 
