@@ -121,12 +121,12 @@ Player [name=Mario Mandžukić, squadra=Juventus]
 
 ```
 @snap[south-west]
-**E' una caratteristica importante delle classi che implementato java.util.List, mantenere l'ordinamento**.
+**E' una caratteristica importante delle classi che implementato `java.util.List`, mantenere l'ordinamento**.
 @snapend
 ---
 
 @snap[north-west]
-#### Metodi
+#### Metodi di `List`
 @snapend
 
 @snap[span-100]
