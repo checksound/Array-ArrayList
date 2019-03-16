@@ -69,14 +69,13 @@ Notate `<T>` a fianco al nome della classe. `T` come tipo generico.
 E' un tipo parametrico `java.util.ArrayList<E>` che implementa l'interfaccia `java.util.List<E>`.
 @snapend
 
-@snap[south-west]
+---
+
 ```java
 ArrayList<String> namelist = new ArrayList<String>();
 
 ArrayList<Player> playerList = new ArrayList<Player>();
 ```
-@snapend
-
 ---
 
 @snap[north-west]
