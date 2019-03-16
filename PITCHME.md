@@ -1,6 +1,17 @@
 # Array & Array List
 ---
+@snap[north-west]
 
+L'array è una struttura dati che in fase di instanziazione viene stabilito in numero di elementi di cui è composta.
+
+```java
+byte octet_buffer[] = new byte[1024];
+Button buttons[] = new Button[10];
+```
+
+Se volessimo una strutura dati, che invece aumenti gli elemmenti in base alla necessità? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
+@snapend
+---
 ## DYNAMIC ARRAY
 Implementiamo un array dinamico da un array base. In questo caso un arrray di `int`.
 
