@@ -220,7 +220,10 @@ Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite opera
 @snap[north-west]
 #### Riepilogo
 <ol>
-
+<li>struttura dati array dinamico</li>
+<li>`ArrayList` come array dinamico</li>
+<li>Metodi dell'interfaccia `List`</li>
+<li>`LinkedList` come differente implementazione di `List`</li> 
 </ol>
 @snapend
 
