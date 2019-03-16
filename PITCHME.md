@@ -70,6 +70,13 @@ E' un tipo parametrico `java.util.ArrayList<E>` che implementa l'interfaccia `ja
 @snapend
 
 ---
+@snap[north-west]
+#### Esempio `ArrayList` come tipo parametrico
+@snapend
+
+@snap[west]
+Istanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, classe di esempio.
+@snapend
 
 ```java
 ArrayList<String> namelist = new ArrayList<String>();
