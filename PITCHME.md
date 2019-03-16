@@ -217,6 +217,9 @@ public class EsempioArrayList2 {
 
 }
 ```
+---
+
+#### Output:
 
 ```text
 Player [name=Cristiano Ronaldo, squadra=Juventus]
