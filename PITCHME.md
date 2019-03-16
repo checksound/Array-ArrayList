@@ -168,7 +168,7 @@ Anche la classe `java.util.LinkedList` implementa l'interfaccia `java.util.List`
 <br>
 Le differenze tra `ArrayList` e `LinkedList` dipendono dalla struttura dati interna utilizzata: un array nel caso di `ArrayList`, mentre, nel caso della `LinkedList`, è utilizzata una lista dinamica. I metodi che espongono sono uguali perchè ambedue implementano l'intarfaccia `java.util.List`.
 <br><br>
-Vediamo cos'è una lista dinamica.
+Vediamo cos'è una **lista dinamica**.
 @snapend
 
 ---
@@ -189,8 +189,6 @@ class Node {
 Gli elementi vengono man mano aggiunti alla fine della lista. L'ultimo elemento ha il campo `next = null`.
 
 ---
-
-
 
 ### Aggiunta di un elemento all'interno della lista
 
