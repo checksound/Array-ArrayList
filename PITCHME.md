@@ -53,7 +53,7 @@ Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
 
 ---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Esempio Dinamic Array come tipo parametrico
 
-Solo esempio introduttivo... di come viene definito un tipo parametrico. Abbiamo reso la classe un tipo parametrico. Notate `<T>` a fianco al nome della classe.
+Notate `<T>` a fianco al nome della classe. `T` come tipo generico.
 
 ---?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio di utilizzo DinamicArrayGeneric
 
