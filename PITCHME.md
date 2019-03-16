@@ -120,7 +120,7 @@ Player [name=Mario Mandžukić, squadra=Juventus]
 
 ```
 @snap[south-west]
-Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento. **E' una caratteristica importante delle classi che implementato java.util.List, mantenere l'orinamento**.
+Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento. **E' una caratteristica importante delle classi che implementato java.util.List, mantenere l'ordinamento**.
 @snapend
 ---
 
