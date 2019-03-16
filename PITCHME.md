@@ -26,7 +26,7 @@ E un array dinamico di una mia classe ad esempio `Persona`?
 ---
 @snap[west]
 Le tre classi (`DynamicArrayOfInt`, `DynamicArrayOfString`, `DynamicArrayOfPerson`), che sono array dinamici, sono molto simili nella implementazione, come si può notare. 
-<br>
+<br><br>
 Vediamo che la logica di base non cambia molto, cambia solo il tipo di contenuto: un array di `int` o un array di `String` o un array di una classe da noi definita, es `Person`.
 @snapend
 
@@ -46,6 +46,7 @@ Per ora vediamo solo come utilizzare tipi paramentrici già definiti. Il primo e
 ### Tipi Parametrici
 @snapend
 
+@snap[west]
 A mo' d'esempio, nella prossima slide vediamo la classe, tipo array dinamico, resa tipo parametrico. 
 <br><br>
 Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
