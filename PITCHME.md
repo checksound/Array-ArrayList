@@ -287,6 +287,25 @@ public class Player {
 ```
 Reimplementiamo `equals` in `Player` per fare il confronto sui valori.
 
+--- 
+
+Utilizzando la nuova versione della classe `Player`, vediamo l'output:
+
+```text
+Player [name=Cristiano Ronaldo, squadra=Juventus]
+Player [name=Mauro Icardi, squadra=Inter]
+Player [name=Ciro Immobile, squadra=Lazio]
+Player [name=Dries Mertens, squadra=Napoli]
+Player [name=Mario Mandžukić, squadra=Juventus]
+index: 1
+Dopo la remove di 'Icardi'
+Player [name=Cristiano Ronaldo, squadra=Juventus]
+Player [name=Ciro Immobile, squadra=Lazio]
+Player [name=Dries Mertens, squadra=Napoli]
+Player [name=Mario Mandžukić, squadra=Juventus]
+```
+vediamo che ora l'elemento viene rimosso!!!
+
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
 ---
