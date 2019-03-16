@@ -136,14 +136,14 @@ Player [name=Mario Mandžukić, squadra=Juventus]
 ---
 
 @snap[north-west]
-#### Metodi di `ArrayList`
+#### Metodi di `List`
 @snapend
 
 @snap[span-100]
 @ul[spaced text-red]
 - `list.size()`
 - `list.add(obj)`
-- `list.get(N)`, lancia ArrayIndexOutOfBoundException se N >= list.size()
+- `list.get(N)`, lancia IndexOutOfBoundException se N >= list.size()
 - `list.set(N, obj)`
 - `list.clear()`
 - `list.remove(N)`
