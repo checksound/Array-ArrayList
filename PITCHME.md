@@ -105,7 +105,6 @@ Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, cl
 ---
 
 @snap[north-west]
-#### Output
 Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento. 
 @snapend
 
