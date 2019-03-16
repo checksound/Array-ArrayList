@@ -159,6 +159,29 @@ Gli ultimi due metodi, `list.remove(obj)` e `list.indexOf(obj)`, utilizzano `obj
 E' importante che quindi il metodo `equals` sia reimplementato secondo la logica di confronto per noi opportuna.
 @snapend
 
+---
+
+Data una classe `Player`:
+
+```java
+public class Player {
+	
+	private String name;
+	private String squadra;
+	
+	public Player(String name, String squadra) {
+		this.name = name;
+		this.squadra = squadra;
+	}
+
+	@Override
+	public String toString() {
+		return "Player [name=" + name + ", squadra=" + squadra + "]";
+	}
+		
+}
+```
+
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
 ---
