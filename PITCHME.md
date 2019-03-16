@@ -106,6 +106,7 @@ Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, cl
 
 @snap[north-west]
 #### Output
+Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento. 
 @snapend
 
 ```text
@@ -120,7 +121,7 @@ Player [name=Mario Mandžukić, squadra=Juventus]
 
 ```
 @snap[south-west]
-Possimamo notare dall'output che l'`ArrayList` conserva l'ordine di inserimento. **E' una caratteristica importante delle classi che implementato java.util.List, mantenere l'ordinamento**.
+**E' una caratteristica importante delle classi che implementato java.util.List, mantenere l'ordinamento**.
 @snapend
 ---
 
