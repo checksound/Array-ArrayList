@@ -9,7 +9,7 @@ byte octet_buffer[] = new byte[1024];
 Button buttons[] = new Button[10];
 ```
 @snap[south-west]
-Se volessimo una strutura dati, che invece aumenti gli elemmenti in base alla necessità? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
+Se volessimo una strutura dati, che non sia necessario a priori stabilire la dimensione? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
 @snapend
 ---
 ## DYNAMIC ARRAY
