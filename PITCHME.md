@@ -285,7 +285,7 @@ public class Player {
 		
 }
 ```
-
+Reimplementiamo `equals` in `Player` per fare il confronto sui valori.
 
 ---?gist=MassimoCappellano/f4bc46f00f82a9c361e4fe23bf1f70bd&lang=Java&title=Esempio con ArrayList
 
