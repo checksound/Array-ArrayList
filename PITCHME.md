@@ -58,7 +58,7 @@ Per ora vediamo solo come utilizzare tipi paramentrici già definiti. Il primo e
 @snapend
 
 @snap[west]
-A mo' d'esempio, nella prossima slide vediamo la classe, tipo array dinamico, resa tipo parametrico. 
+A mo' d'esempio, nella prossima slide vediamo la classe, diventata generica, implementata come tipo parametrico. 
 <br><br>
 Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
 @snapend
