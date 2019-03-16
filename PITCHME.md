@@ -77,9 +77,27 @@ Instanziazione di due `ArrayList`, una di oggetti `String` e una di `Player`, cl
 @snapend
 
 ```java
-ArrayList<String> namelist = new ArrayList<String>();
+ArrayList<String> nameList = new ArrayList<String>();
 
 ArrayList<Player> playerList = new ArrayList<Player>();
+		
+nameList.add("Massimo");
+nameList.add("Giovanni");
+nameList.add("Carla");
+		
+playerList.add(new Player("Cristiano Ronaldo", "Juventus"));
+playerList.add(new Player("Mauro Icardi", "Inter"));
+playerList.add(new Player("Ciro Immobile", "Lazio"));
+playerList.add(new Player("Dries Mertens", "Napoli"));
+playerList.add(new Player("Mario Mandžukić", "Juventus"));
+
+for(String name: nameList) {
+  System.out.println(name);
+}
+		
+for(Player player: playerList) {
+  System.out.println(player);
+}
 ```
 ---
 
