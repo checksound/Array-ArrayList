@@ -1,14 +1,14 @@
 # Array & Array List
 ---
 @snap[north-west]
-
 L'array è una struttura dati che in fase di instanziazione viene stabilito in numero di elementi di cui è composta.
+@snapend
 
 ```java
 byte octet_buffer[] = new byte[1024];
 Button buttons[] = new Button[10];
 ```
-
+@snap[south-west]
 Se volessimo una strutura dati, che invece aumenti gli elemmenti in base alla necessità? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
 @snapend
 ---
