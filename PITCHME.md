@@ -37,10 +37,10 @@ Vediamo che la logica di base non cambia molto, cambia solo il tipo di contenuto
 
 @snap[west]
  Per questo sono stati definiti i **tipi parametrici**, tipi che sono customizzati in base al tipo contenuto. Vederemo nelle prossime lezioni di trattare l'argomento sui tipi parametrici.
-
+<br>
 Per ora vediamo solo come utilizzare tipi paramentrici già definiti.
-
-Nella prossima slide vediamo la classe resa tipo parametrico, solo come esempio. Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
+<br>
+Nella prossima slide vediamo la classe, tipo array dinamico, resa tipo parametrico, solo come esempio. Quando tratteremo i tipi parametrici questo codice vi risulterà chiaro.
 @snapend
 
 ---?gist=MassimoCappellano/489a4111f3a941e2c7ba4daa552ab520&lang=Java&title=Esempio Dinamic Array come tipo parametrico
