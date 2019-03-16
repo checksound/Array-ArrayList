@@ -59,12 +59,15 @@ Notate `<T>` a fianco al nome della classe. `T` come tipo generico.
 ---?gist=MassimoCappellano/1007e91a902fe452cb18f271ef8abf7d&lang=Java&title=Esempio di utilizzo DinamicArrayGeneric
 
 ---
+@snap[north-west]
+#### Utilizzo della classe `ArrayList` come array dinamico
+@snapend
 
-#### Utilizzo della classe `ArrayList`
-
-`java.util.ArrayList` è una delle classi standard del JDK, fa parte del Java Collection Framework.
-
-E' un tipo parametrico `java.util.ArrayList<T>`. 
+@snap[west]
+`java.util.ArrayList` è una delle classi standard del JDK, fa parte del Java Collection Framework, ed è un tipo di array dinamico.
+<br><br>
+E' un tipo parametrico `java.util.ArrayList<E>` che implementa l'interfaccia `java.util.List<E>`.
+@snapend
 
 ```java
 ArrayList<String> namelist = new ArrayList<String>();
@@ -88,6 +91,7 @@ ArrayList<Player> playerList = new ArrayList<Player>();
 - list.indexOf(obj)
 @ulend
 @snapend
+
 ---
 
 Gli ultimi due metodi, `list.remove(obj)` e `list.indexOf(obj)`, utilizzano `obj.equals(Object o)` per trovare l'oggetto da rimuovere o la posizione dell'oggetto nella lista.
