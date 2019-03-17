@@ -381,7 +381,8 @@ Mentre `LinkedList` è da preferire quando principalemnte vengono eseguite opera
 
 @snap[west]
 <ol>
-<li>Struttura dati array dinamico;</li>
+<li>Struttura dati array dinamico, esempi di implementazione;</li>
+<li>Esempio di tipo parametrico;</li>
 <li>`ArrayList` come array dinamico;</li>
 <li>Metodi dell'interfaccia `List`;</li>
 <li>`LinkedList` come differente implementazione di `List`;</li>
