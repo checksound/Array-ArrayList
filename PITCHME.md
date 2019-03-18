@@ -19,12 +19,17 @@ int[] list = new int[5];
 ![](assets/img/array_of_ints.png)
 ---
 
+@snap[north-west]
+#### Array di oggetti - esempio
+@snapend
+
 ```java
 Shape[] shapes = new Shape[100]; // Array to hold up to 100 shapes.
 shapes[0] = new Rect();          // Put some objects in the array.
 shapes[1] = new Line(); 
 shapes[2] = new FilledOval();
 ``` 
+![](assets/img/array_of_objects.png)
 
 ---
 @snap[west]
