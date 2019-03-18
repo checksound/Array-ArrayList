@@ -8,6 +8,9 @@ L'array è una struttura dati che in fase di instanziazione viene stabilito in n
 byte octet_buffer[] = new byte[1024];
 Button buttons[] = new Button[10];
 ```
+@snap[south-west]
+Abbiamo creato due array, `octet_buffer` e `buttons`, rispettivamente di `1024` bytes e `10` Buttons.
+@snapend 
 ---
 @snap[north-west]
 ### Array di tipo primitivo - esempio
