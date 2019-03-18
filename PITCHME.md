@@ -9,7 +9,7 @@ byte octet_buffer[] = new byte[1024];
 Button buttons[] = new Button[10];
 ```
 @snap[south-west]
-Abbiamo creato due array, `octet_buffer` e `buttons`, rispettivamente di `1024` bytes e `10` Buttons.
+Abbiamo creato due array, `octet_buffer` e `buttons`, rispettivamente di `1024` *bytes* e `10` oggetti di tipo *Button*.
 @snapend 
 ---
 @snap[north-west]
