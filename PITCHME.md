@@ -8,7 +8,26 @@ L'array è una struttura dati che in fase di instanziazione viene stabilito in n
 byte octet_buffer[] = new byte[1024];
 Button buttons[] = new Button[10];
 ```
-@snap[south-west]
+---
+@snap[north-west]
+### Array di tipo primitivo - esempio
+@snapend
+
+```java
+int[] list = new int[5];
+```
+![](assets/img/array_of_ints.png)
+---
+
+```java
+Shape[] shapes = new Shape[100]; // Array to hold up to 100 shapes.
+shapes[0] = new Rect();          // Put some objects in the array.
+shapes[1] = new Line(); 
+shapes[2] = new FilledOval();
+``` 
+
+---
+@snap[west]
 Se volessimo una strutura dati, che non sia necessario a priori stabilire la dimensione? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
 @snapend
 ---
