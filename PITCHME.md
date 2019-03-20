@@ -55,7 +55,7 @@ Metodi statici della classe java.utils.Arrays utili per lavorare con gli array.
 
 ---
 
-### Arrays.copyOf
+#### Arrays.copyOf
 
 Il metodo copyOf è utile per fare una copia di un array di partenza:
 ```java
