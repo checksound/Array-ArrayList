@@ -39,7 +39,9 @@ shapes[2] = new FilledOval();
 ### Arrays utilities
 @snapend
 
-@snap[west span-100]
+---
+
+@snap[north-west span-100]
 @ul[spaced text-red]
 - Arrays.fill( array, value) - Riempie tutto l'array con il valore specificato. Il tipo del valore deve essere compatibile con il tipo base dell'array. Per esempio, assumendo che numList è un array di double[], allora Arrays.fill( numList, 17), settera ogni elemento di numList al valore 17;
 - Arrays.fill( array, fromIndex, toIndex, value) - Riempie parte dell'array con value, partendo da fromIndex e finendo a toIndex -1, Da notare che toIndex non è incluso.
