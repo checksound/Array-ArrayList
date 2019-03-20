@@ -37,7 +37,7 @@ shapes[2] = new FilledOval();
 ---
 
 ### Arrays utilities
-
+Metodi statici della classe java.utils.Arrays utili per lavorare con gli array.
 ---
 
 - Arrays.fill( array, value) - Riempie tutto l'array con il valore specificato. Il tipo del valore deve essere compatibile con il tipo base dell'array. Per esempio, assumendo che numList è un array di double[], allora Arrays.fill( numList, 17), settera ogni elemento di numList al valore 17;
@@ -57,6 +57,7 @@ shapes[2] = new FilledOval();
 
 ---
 @snap[west]
+Abbiamo visto che per istanziare un array (crearlo), dobbiamo dire di quanti elementi è composto. Una volta creato, la dimensione non può essere cambiata. <br><br>
 Se volessimo una strutura dati, che non sia necessario a priori stabilire la dimensione? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
 @snapend
 ---
