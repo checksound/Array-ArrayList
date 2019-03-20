@@ -43,6 +43,11 @@ shapes[2] = new FilledOval();
 @ul[spaced text-red]
 - Arrays.fill( array, value) - Riempie tutto l'array con il valore specificato. Il tipo del valore deve essere compatibile con il tipo base dell'array. Per esempio, assumendo che numList è un array di double[], allora Arrays.fill( numList, 17), settera ogni elemento di numList al valore 17;
 - Arrays.fill( array, fromIndex, toIndex, value) - Riempie parte dell'array con value, partendo da fromIndex e finendo a toIndex -1, Da notare che toIndex non è incluso.
+@ulend
+@snapend
+
+---
+
 - Arrays.toString( array) -  Una funzione che ritorna una String contenente tutti gli elementi dell'array, separati da virgole e inclusi tra parentesi quadre. I valori dell'array, sono convertiti a String, nello stesso modo in cui sarebbero stampati a standard output. 
 - Arrays.sort( array) -  Ordina un intero array. Ordinare un array significa disporre gli elementi dell'array in ordine crescente. Il metodo funziona per tipi primitivi (eccetto i boolen) e per oggetti che implementano l'interfaccia Comparable;
 - Arrays.sort( array, fromIndex, toIndex) -  Ordina solo gli elementi da array[fromIndex] a array[toIndex -1];
