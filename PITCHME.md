@@ -35,6 +35,22 @@ shapes[2] = new FilledOval();
 ![](assets/img/array_of_objects.png)
 
 ---
+@snap[north-west]
+### Arrays utilities
+@snapend
+
+@snap[span-100]
+@ul[spaced text-red]
+- Arrays.fill( array, value) - Riempie tutto l'array con il valore specificato. Il tipo del valore deve essere compatibile con il tipo base dell'array. Per esempio, assumendo che numList è un array di double[], allora Arrays.fill( numList, 17), settera ogni elemento di numList al valore 17;
+- Arrays.fill( array, fromIndex, toIndex, value) - Riempie parte dell'array con value, partendo da fromIndex e finendo a toIndex -1, Da notare che toIndex non è incluso.
+- Arrays.toString( array) -  Una funzione che ritorna una String contenente tutti gli elementi dell'array, separati da virgole e inclusi tra parentesi quadre. I valori dell'array, sono convertiti a String, nello stesso modo in cui sarebbero stampati a standard output. 
+- Arrays.sort( array) -  Ordina un intero array. Ordinare un array significa disporre gli elementi dell'array in ordine crescente. Il metodo funziona per tipi primitivi (eccetto i boolen) e per oggetti che implementano l'interfaccia Comparable;
+- Arrays.sort( array, fromIndex, toIndex) -  Ordina solo gli elementi da array[fromIndex] a array[toIndex -1];
+- Arrays.binarySearch( array, value) - Ricerca il valore nell'array. Prerequisito è che l'array sia già ordinato in ordine crescente. La funzione ritorna un int. Se il valore è ritrovato nell'array, ritorna il valore dell'indice dell'elemento nell'array. Se il valore invece non è presente, viene ritornato il valore -1;
+@ulend
+@snapend
+
+---
 @snap[west]
 Se volessimo una strutura dati, che non sia necessario a priori stabilire la dimensione? Chiameremo questa struttura **array dinamici**. Vediamo come implementarla.
 @snapend
