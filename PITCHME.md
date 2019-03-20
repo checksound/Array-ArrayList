@@ -55,6 +55,26 @@ Metodi statici della classe java.utils.Arrays utili per lavorare con gli array.
 
 ---
 
+### Arrays.copyOf
+
+Il metodo copyOf è utile per fare una copia di un array di partenza:
+```java
+Arrays.copyOf( list, lengthOfCopy )
+```
+restituisce un array dato un array di input (list nel nostro esempio) della dimensione specificata. Se la lengthOfCopy è maggiore della lunghezza dell'array di input, l'array di output avrà gli elementi eccedenti valorizzati con il valore di default per il tipo base dell'array. Se invece lengthOfCopy  è <=  di list.length, viene compiato nel nuovo array solo il numero di elementi da list che ci stanno nel nuovo array.
+
+---
+
+Così se A è un array:
+```java
+B = Arrays.copyOf( A, A.length );
+```
+otteniamo un array B della stassa lunghezza di A con copia degli stessi elemento, e con questo codice:
+```java
+playerList = Arrays.copyOf( playerList, 2*playerList.length );
+```
+possiamo raddoppiare la dimensione di un array, in questo caso playerList.
+
 ---
 @snap[west]
 Abbiamo visto che per istanziare un array (crearlo), dobbiamo dire di quanti elementi è composto. Una volta creato, la dimensione non può essere cambiata. <br><br>
