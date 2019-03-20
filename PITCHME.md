@@ -47,10 +47,16 @@ shapes[2] = new FilledOval();
 @snapend
 
 ---
-
+@snap[north-west span-100]
+@ul[spaced text-red]
 - Arrays.toString( array) -  Una funzione che ritorna una String contenente tutti gli elementi dell'array, separati da virgole e inclusi tra parentesi quadre. I valori dell'array, sono convertiti a String, nello stesso modo in cui sarebbero stampati a standard output. 
 - Arrays.sort( array) -  Ordina un intero array. Ordinare un array significa disporre gli elementi dell'array in ordine crescente. Il metodo funziona per tipi primitivi (eccetto i boolen) e per oggetti che implementano l'interfaccia Comparable;
 - Arrays.sort( array, fromIndex, toIndex) -  Ordina solo gli elementi da array[fromIndex] a array[toIndex -1];
+@ulend
+@snapend
+
+---
+
 - Arrays.binarySearch( array, value) - Ricerca il valore nell'array. Prerequisito è che l'array sia già ordinato in ordine crescente. La funzione ritorna un int. Se il valore è ritrovato nell'array, ritorna il valore dell'indice dell'elemento nell'array. Se il valore invece non è presente, viene ritornato il valore -1;
 @ulend
 @snapend
