@@ -52,8 +52,8 @@ Metodi statici della classe java.utils.Arrays utili per lavorare con gli array.
 ---
 
 - Arrays.binarySearch( array, value) - Ricerca il valore nell'array. Prerequisito è che l'array sia già ordinato in ordine crescente. La funzione ritorna un int. Se il valore è ritrovato nell'array, ritorna il valore dell'indice dell'elemento nell'array. Se il valore invece non è presente, viene ritornato il valore -1;
-@ulend
-@snapend
+
+---
 
 ---
 @snap[west]
